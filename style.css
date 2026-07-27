@@ -215,11 +215,11 @@ h1, h2, h3 {
   position: relative;
   z-index: 2;
   max-width: 640px;
-  transform: translateY(-70px);
+  transform: translateY(-120px);
 }
 
 @media (min-width: 768px) {
-  .hero-content { transform: translateY(-130px); }
+  .hero-content { transform: translateY(-180px); }
 }
 
 .eyebrow {
@@ -835,8 +835,8 @@ button.btn-map.field-full {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 18% 12% 22%;
-  transform: translateY(-6%);
+  padding: 6% 12% 22%;
+  transform: translateY(-28%);
 }
 .cover-content .eyebrow { margin-bottom: 10px; }
 .cover-names { font-size: clamp(1.9rem, 11vw, 2.4rem) !important; margin-bottom: 6px; }
