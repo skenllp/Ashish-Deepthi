@@ -877,3 +877,51 @@ button.btn-map.field-full {
 .cover-card .btn-open-invitation:hover {
   transform: translateX(-50%) translateY(-3px) scale(1.03);
 }
+
+/* ==========================================================================
+   BEST COMPLIMENTS
+   ========================================================================== */
+.compliments-section { padding-bottom: 60px; }
+
+.compliments-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.compliments-content {
+  text-align: center;
+  padding: 40px 32px !important;
+}
+
+.compliments-motif {
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.compliments-from {
+  font-family: var(--font-verse);
+  font-size: 1rem;
+  color: var(--maroon-light);
+  letter-spacing: 0.08em;
+  margin: 0 0 8px;
+  font-style: italic;
+}
+
+.compliments-names {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 5vw, 2.2rem);
+  color: var(--maroon);
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+
+.compliments-role {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--gold-dark, #9a7208);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+}
