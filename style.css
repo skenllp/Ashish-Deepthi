@@ -332,6 +332,7 @@ main section {
   box-sizing: border-box;
   padding: var(--section-pad) 24px;
   position: relative;
+  overflow: hidden;
 }
 
 /* Ornamental page divider — a slim gold motif, not a heavy image,
@@ -455,7 +456,11 @@ main section {
   text-align: center;
   font-size: 0.88rem;
   color: var(--maroon-soft);
-  margin: -20px 0 34px;
+  margin: -20px auto 34px;
+  max-width: 600px;
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 .rsvp-contact a {
   color: var(--maroon);
@@ -642,6 +647,13 @@ main section {
 /* ==========================================================================
    RSVP
    ========================================================================== */
+.rsvp-card {
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
 .rsvp-grid { display: grid; grid-template-columns: 1fr; gap: 18px; text-align: left; }
 @media (min-width: 640px) {
   .rsvp-grid { grid-template-columns: 1fr 1fr; }
